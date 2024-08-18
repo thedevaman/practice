@@ -5,6 +5,7 @@ import Home from './component/Home'
 import Gallery from './component/Gallery'
 import ContactUs from './component/ContactUs'
 import Notfound from './component/Notfound'
+import 'remixicon/fonts/remixicon.css'
 const App = ()=>{
  return (
   <BrowserRouter>

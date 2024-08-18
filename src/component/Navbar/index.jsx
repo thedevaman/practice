@@ -1,3 +1,4 @@
+import './navbar.css'
 import {Link} from 'react-router-dom'
 const Navbar = ()=>{
    return(
@@ -11,43 +12,43 @@ const Navbar = ()=>{
     }}>
       <li style={{
         float: 'left',
-      }}><Link to='/' style={{
+      }}><Link to='/' className='menu' style={{
         display: 'block',
         color: 'white',
         textAlign: 'center',
         padding: '14px 16px',
         textDecoration: 'none',
-      }}>Home</Link>
+      }}><i className="ri-home-4-fill" style={{marginRight: 5}}></i>Home</Link>
       </li>
       <li style={{
         float: 'left'
-      }}><Link to='/about' style={{
+      }}><Link to='/about' className='menu' style={{
         display: 'block',
         color: 'white',
         textAlign: 'center',
         padding: '14px 16px',
         textDecoration: 'none',
-      }}>About</Link>
+      }}><i className="ri-discuss-fill" style={{marginRight: 5}}></i>About</Link>
       </li>
       <li style={{
         float: 'left'
-      }}><Link to='/gallery' style={{
+      }}><Link to='/gallery' className='menu' style={{
         display: 'block',
         color: 'white',
         textAlign: 'center',
         padding: '14px 16px',
         textDecoration: 'none',
-      }}>Gallery</Link>
+      }}><i className="ri-gallery-fill" style={{marginRight:5}}></i>Gallery</Link>
       </li>
       <li style={{
         float: 'left'
-      }}><Link to='/contact-us' style={{
+      }}><Link to='/contact-us' className='menu' style={{
         display: 'block',
         color: 'white',
         textAlign: 'center',
         padding: '14px 16px',
         textDecoration: 'none',
-      }}>Contact Us</Link>
+      }}><i className="ri-phone-fill" style={{marginRight: 5}}></i>Contact Us</Link>
       </li>
     </ul>
     </nav>
